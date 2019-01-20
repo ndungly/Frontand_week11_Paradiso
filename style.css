@@ -324,7 +324,95 @@
 }
 
 
+/* CALENDAR NAV */
+
+.calendar-nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4rem;
+}
+
+.cal-nav-right {
+    margin-left: 3rem;
+}
+
+.cal-nav-sel, .cal-nav-item {
+    padding: 1rem 1.5rem;
+}
+
+.cal-nav-sel {
+    text-decoration: none;
+    color: white;
+    background-color: #701475;
+}
+
+.cal-nav-item {
+    text-decoration: none;
+    color: #fbadff;
+}
+
+
+
 /* CALENDAR */
+
+.calendar {
+    margin-bottom: 5rem;
+}
+
+.day-section {
+    border-bottom: 1px solid #fbadff;
+    display: flex;
+}
+
+.calendar-date {
+    flex: 0 1 12.5rem;
+    font-weight: 600;
+    color: #fbadff;
+    font-size: 1.6rem;
+}
+
+.calendar-events {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    margin-bottom: 1.6rem;
+}
+
+.calendar-event {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar-event-name-descr {
+    flex: 1 1 auto;
+    transition: all .2s ease-out;
+    text-decoration: none;
+    color: white;
+}
+
+.calendar-event-name-descr:hover {
+    transform: translate(1.2rem);
+    transition: all .2s ease-out;
+}
+
+
+.calendar-event-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 0rem;
+}
+
+.calendar-event-description {
+    font-weight: 300;
+    color: #fbadff;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.calendar-event-time {   
+    font-weight: 300;
+    color: #fbadff;
+}
 
 
 
