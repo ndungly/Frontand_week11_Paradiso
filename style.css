@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    font-family: "Assistant", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.side-fill {
+    flex: 1 2 auto;
+    background-color: #b823c0;
+}
+
+.main {
+    flex: 0 1 76rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #b823c0;
+    color: white;
+    padding: 0 3rem;
+}  
+
+.top-navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
+.nav-item-menu, .nav-item-search, .nav-item-programme {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.nav-item-search {
+    margin-left: 1rem;
+}
+
+.site-title {
+    max-width: 100%;
+    margin: 4rem 0 -7.8% 0;
+    z-index: 999;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+
+
+/* just confirmed artists */
+
+
+.just-confirmed {
+    display: flex;
+}
+
+.jc-left {
+    flex: 1 1 50.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.jc-left-top {
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+}
+
+.img-container-large {
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.jc-img-large {
+    max-width: 170%;
+    margin-left: -35%;
+}
+
+.title-block-large {
+    margin: -8.3rem 0 0 2rem;
+}
+
+.jc-title-large {
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.artist-title-large {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: -1rem 0 0 0;
+}
+
+.jc-left-bottom {
+    display: flex;
+}
+
+.jc-left-bottom-square {
+    flex: 1 1 25.25rem;
+    height: 0;
+    padding-bottom: 50%;
+    overflow: hidden;
+}
+
+.img-container-small {
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.jc-img-small-1 {
+    max-width: 130%;
+    margin-left: -16%;
+}
+
+.jc-img-small-2 {
+    max-width: 160%;
+    margin-left: -15%;
+}
+
+.jc-img-small-3 {
+    max-width: 150%;
+    margin-left: -25%;
+}
+
+.title-block {
+    margin: -6.3rem 0 0 2rem;
+}
+
+.jc-title {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 0;
+}
+
+.artist-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0 0 0 0;
+    line-height: 2rem;
+}
+
+.jc-right {
+    flex: 1 1 25.25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.jc-right-top {
+    background-color: gray;
+    flex: 1 1 auto;
+    height: 0;
+    padding-bottom: 100%;
+    overflow: hidden;
+
+}
+
+.jc-right-bottom {
+    flex: 1 1 auto;
+    height: 0;
+    padding-bottom: 200%;
+    overflow: hidden;
+}
+
+.img-container-long {
+    height: 0;
+    padding-bottom: 200%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.jc-img-long {
+    width: 300%;
+    margin-left: -125%;
+}
