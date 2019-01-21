@@ -107,6 +107,9 @@
 
 .title-block-large {
     margin: 0 0 0 2rem;
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .jc-title-large {
@@ -177,6 +180,9 @@
 
 .title-block {
     margin: 0 0 0 2rem;
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .jc-title {
@@ -256,10 +262,15 @@
 .today-blocks {
     display: flex;
     margin-top: .6rem;
+    margin-bottom: 5rem;
+}
+
+.today-block-wrapper {
+    flex: 0 1 19rem;
+    overflow: hidden;
 }
 
 .today-block {
-    flex: 0 1 19rem;
     height: 0;
     padding-bottom: 110%;
     overflow: hidden;
@@ -297,11 +308,17 @@
 }
 
 .title-block-today-1 {
-    margin: -8.5rem 1.4rem 0 1.4rem;
+    margin: -9.5rem 1.4rem 0 1.4rem;
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .title-block-today-2 {
-    margin: -6.4rem 1.4rem 0 1.4rem;
+    margin: -7.4rem 1.4rem 0 1.4rem;
+    position: relative;
+    z-index: 1;
+    pointer-events: none;
 }
 
 .today-event-title {
@@ -330,6 +347,7 @@
     display: flex;
     justify-content: flex-end;
     margin-bottom: 4rem;
+    margin-top: 5rem;
 }
 
 .cal-nav-right {
